@@ -3,10 +3,10 @@ import QuestionItem from "./QuestionItem";
 
 function QuestionList({ questions }) {
 
-  console.log(questions, "?")
-  // const renderQuestions = questions.map((q) => {
-  // //   return <QuestionItem key={q.index} questions={questions} />
-  // // })
+  // console.log(questions, "?")
+  const renderQuestions = questions.map((q) => {
+    return <QuestionItem key={q.id} question={q} />
+  })
 
   return (
     <section>

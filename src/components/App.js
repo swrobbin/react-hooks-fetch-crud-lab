@@ -14,6 +14,10 @@ function App() {
     // console.log(questions, 'here they are')
   }, [])
 
+  function onAddNewQuestion(){
+    
+  }
+
   return (
     <main>
       <AdminNavBar onChangePage={setPage} />
